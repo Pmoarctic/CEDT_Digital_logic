@@ -43,8 +43,8 @@ def main():
                     break
                 operation.append(op)
             for op in operation:
-                testcase.append("0 0 " + str(int(op,2)) + " 0 1 0 0 0 0 0 x")
-                testcase.append("0 0 " + str(int(op,2)) + " 0 1 0 0 1 0 0 x")
+                testcase.append("0 0 " + str(op) + " 0 1 0 0 0 0 0 x")
+                testcase.append("0 0 " + str(op) + " 0 1 0 0 1 0 0 x")
         elif operation == "start":
             duration = input("Enter duration: ")
             M = input("Enter M: ")
