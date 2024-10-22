@@ -2274,7 +2274,7 @@
           <string>MOD</string>
         </entry>
       </elementAttributes>
-      <pos x="2020" y="2540"/>
+      <pos x="2020" y="2560"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -11713,6 +11713,10 @@
       <p2 x="1900" y="2560"/>
     </wire>
     <wire>
+      <p1 x="1960" y="2560"/>
+      <p2 x="2020" y="2560"/>
+    </wire>
+    <wire>
       <p1 x="2520" y="0"/>
       <p2 x="2540" y="0"/>
     </wire>
@@ -12883,10 +12887,6 @@
     <wire>
       <p1 x="1800" y="2540"/>
       <p2 x="1900" y="2540"/>
-    </wire>
-    <wire>
-      <p1 x="1960" y="2540"/>
-      <p2 x="2020" y="2540"/>
     </wire>
     <wire>
       <p1 x="2520" y="-240"/>
